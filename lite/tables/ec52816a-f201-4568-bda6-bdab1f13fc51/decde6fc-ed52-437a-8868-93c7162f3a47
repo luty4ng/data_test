@@ -1,0 +1,44 @@
+{
+  "columns": [
+    {
+      "array_item_kind": null,
+      "choices": [],
+      "default_enabled": false,
+      "default_value": null,
+      "description": "",
+      "display_name": "",
+      "id": "9c2d49d5-3706-4073-a1de-6848b19229d3",
+      "key": false,
+      "kind": "int",
+      "name": "ID",
+      "nullable": false,
+      "reference": null
+    },
+    {
+      "array_item_kind": null,
+      "choices": [],
+      "default_enabled": false,
+      "default_value": null,
+      "description": "",
+      "display_name": "",
+      "id": "79bfa403-f943-4b3c-8d6d-96b49e25f591",
+      "key": false,
+      "kind": "string",
+      "name": "名称",
+      "nullable": false,
+      "reference": null
+    }
+  ],
+  "id": "decde6fc-ed52-437a-8868-93c7162f3a47",
+  "name": "BBB",
+  "row_data": [
+    {
+      "cells": {
+        "79bfa403-f943-4b3c-8d6d-96b49e25f591": "dddsadasd",
+        "9c2d49d5-3706-4073-a1de-6848b19229d3": "2"
+      },
+      "id": "d8c5792d-6572-474f-9a61-39534d53fc6d",
+      "order": 1024
+    }
+  ]
+}
