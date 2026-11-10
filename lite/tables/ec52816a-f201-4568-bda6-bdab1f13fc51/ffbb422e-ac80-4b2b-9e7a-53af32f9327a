@@ -27,6 +27,31 @@
       "name": "名称",
       "nullable": false,
       "reference": null
+    },
+    {
+      "array_item_kind": null,
+      "checks": {
+        "membership": {
+          "target_column_id": "9c2d49d5-3706-4073-a1de-6848b19229d3",
+          "target_sheet_id": "decde6fc-ed52-437a-8868-93c7162f3a47"
+        },
+        "no_chinese_punctuation": false,
+        "no_english_punctuation": false,
+        "not_empty": false,
+        "strictly_not_empty": false,
+        "unique": false
+      },
+      "choices": [],
+      "default_enabled": false,
+      "default_value": null,
+      "description": "",
+      "display_name": "",
+      "id": "9704b086-d649-035f-06ac-bab4ff01d860",
+      "key": false,
+      "kind": "string",
+      "name": "BindID",
+      "nullable": false,
+      "reference": null
     }
   ],
   "id": "ffbb422e-ac80-4b2b-9e7a-53af32f9327a",
@@ -35,7 +60,8 @@
     {
       "cells": {
         "6e16d494-99de-4097-a58d-cc7d6a2a42b5": "1",
-        "8645686d-8313-47ac-a5f8-8350f23b03c8": "2sada但是都是"
+        "8645686d-8313-47ac-a5f8-8350f23b03c8": "2sada但是都是",
+        "9704b086-d649-035f-06ac-bab4ff01d860": ""
       },
       "id": "ce69495c-75d0-4b4d-ab70-0c01ffebb2ee",
       "order": 1024
