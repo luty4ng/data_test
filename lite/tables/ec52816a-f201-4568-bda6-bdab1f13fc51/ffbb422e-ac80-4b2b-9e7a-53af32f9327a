@@ -41,15 +41,42 @@
         "strictly_not_empty": false,
         "unique": false
       },
-      "choices": [],
+      "choices": [
+        "AAA",
+        "VVVV"
+      ],
       "default_enabled": false,
       "default_value": null,
       "description": "",
       "display_name": "",
       "id": "9704b086-d649-035f-06ac-bab4ff01d860",
       "key": false,
-      "kind": "string",
+      "kind": "options",
       "name": "BindID",
+      "nullable": false,
+      "options_config": {
+        "allow_explicit_empty": false,
+        "colors": {
+          "AAA": "#1677ff",
+          "VVVV": "#ff1414"
+        },
+        "export_as_string": false,
+        "labels": {},
+        "number_integer": false
+      },
+      "reference": null
+    },
+    {
+      "array_item_kind": "string",
+      "choices": [],
+      "default_enabled": false,
+      "default_value": null,
+      "description": "",
+      "display_name": "",
+      "id": "9a8b6c0f-281b-08e2-0b1d-ba92b223b943",
+      "key": false,
+      "kind": "array",
+      "name": "Test",
       "nullable": false,
       "reference": null
     }
@@ -61,10 +88,48 @@
       "cells": {
         "6e16d494-99de-4097-a58d-cc7d6a2a42b5": "1",
         "8645686d-8313-47ac-a5f8-8350f23b03c8": "2sada但是都是",
-        "9704b086-d649-035f-06ac-bab4ff01d860": ""
+        "9704b086-d649-035f-06ac-bab4ff01d860": "AAA",
+        "9a8b6c0f-281b-08e2-0b1d-ba92b223b943": ""
       },
       "id": "ce69495c-75d0-4b4d-ab70-0c01ffebb2ee",
       "order": 1024
+    },
+    {
+      "cells": {
+        "6e16d494-99de-4097-a58d-cc7d6a2a42b5": null,
+        "8645686d-8313-47ac-a5f8-8350f23b03c8": "",
+        "9704b086-d649-035f-06ac-bab4ff01d860": "VVVV",
+        "9a8b6c0f-281b-08e2-0b1d-ba92b223b943": ""
+      },
+      "id": "083850eb-e4db-09ea-3148-66e266517442",
+      "order": 2048
+    },
+    {
+      "cells": {
+        "6e16d494-99de-4097-a58d-cc7d6a2a42b5": null,
+        "8645686d-8313-47ac-a5f8-8350f23b03c8": null,
+        "9704b086-d649-035f-06ac-bab4ff01d860": null
+      },
+      "id": "0821a1b1-3f47-0859-0295-b9e0e3de035e",
+      "order": 3072
+    },
+    {
+      "cells": {
+        "6e16d494-99de-4097-a58d-cc7d6a2a42b5": null,
+        "8645686d-8313-47ac-a5f8-8350f23b03c8": null,
+        "9704b086-d649-035f-06ac-bab4ff01d860": null
+      },
+      "id": "78e170c1-7387-0613-3a3f-030df0802a5a",
+      "order": 4096
+    },
+    {
+      "cells": {
+        "6e16d494-99de-4097-a58d-cc7d6a2a42b5": null,
+        "8645686d-8313-47ac-a5f8-8350f23b03c8": null,
+        "9704b086-d649-035f-06ac-bab4ff01d860": null
+      },
+      "id": "66070667-bb46-0828-25bc-6dc0abca78d9",
+      "order": 5120
     }
   ]
 }
